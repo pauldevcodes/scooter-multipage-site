@@ -1,8 +1,19 @@
-import React from 'react'
+
+
+// sections
+import AboutFAQs from '../sections/AboutFAQs'
+import AboutFeatures from '../sections/AboutFeatures'
+import AboutHero from '../sections/AboutHero'
+import AboutValues from '../sections/AboutValues'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <AboutHero />
+      <AboutFeatures />
+      <AboutValues />
+      <AboutFAQs />
+    </div>
   )
 }
 
