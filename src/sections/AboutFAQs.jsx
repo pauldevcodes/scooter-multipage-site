@@ -13,7 +13,7 @@ const AboutFAQs = () => {
     };
 
     return (
-        <div className=" py-[120px] px-8 flex flex-col items-center gap-y-12">
+        <div className=" py-[120px] px-8 flex flex-col items-center gap-y-12 md:px-[98px] xl:px-[165px]">
             <h4 className=" font-bold text-[32px] leading-8 text-center tracking-[-1.4px] text-[#495567] md:text-5xl md:leading-[48px] md:tracking-[-2px]">
                 FAQs
             </h4>
