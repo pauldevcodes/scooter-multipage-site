@@ -10,6 +10,7 @@ import App from './App';
 import Home from './pages/Home';
 import About from './pages/About';
 import Careers from './pages/Careers';
+import Locations from './pages/Locations';
 
 // creating the router
 const router = createBrowserRouter([
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "locations",
-        element: <About />
+        element: <Locations />
       }
     ])
   }
