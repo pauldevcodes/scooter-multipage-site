@@ -58,7 +58,11 @@ const Footer = () => {
             <div className=' bg-[#333a44] py-16 px-8 flex flex-col items-center sm:flex-row sm:w-full sm:justify-between xl:px-[165px]'>
                 {/* logo and nav links */}
                 <div className=' sm:flex sm:items-center md:w-[418px] md:justify-between'>
-                    <img src={footerLogo} alt="FooterScoot" />
+                    <Link
+                    to="/"
+                    >
+                        <img src={footerLogo} alt="FooterScoot" />
+                    </Link>
 
                     <nav className=' flex flex-col gap-y-4 mt-[41.4px] sm:flex-row sm:gap-x-8 sm:mt-0'>
                         <Link

@@ -58,11 +58,15 @@ const Header = () => {
             {/* logo and nav links */}
             <div className=' flex flex-row items-center w-full sm:justify-between'>
                 <div className=' sm:flex md:w-[418px] md:justify-between'>
-                    <img
-                        src={logo}
-                        alt="logo"
-                        className=' w-[76px] h-[20px]'
-                    />
+                    <Link
+                    to="/"
+                    >
+                        <img
+                            src={logo}
+                            alt="logo"
+                            className=' w-[76px] h-[20px]'
+                        />
+                    </Link>
 
                     <nav className=' hidden sm:flex sm:items-center sm:gap-x-8'>
                         <Link
